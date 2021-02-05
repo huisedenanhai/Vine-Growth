@@ -38,7 +38,7 @@ public class FeatureAnimation : MonoBehaviour
     {
         grouthTime = Mathf.Lerp(0.7f, 1.5f, Random.value);
         _life = 0;
-        _timeScale = GetComponentInParent<VineGrouth>().timeScale;
+        _timeScale = GetComponentInParent<VineGrowth>().timeScale;
     }
 
     private float Ease(float x)

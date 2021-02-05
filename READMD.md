@@ -1,5 +1,5 @@
-# Vine Grouth
+# Vine Growth
 
-Simulate the grouth of vine.
+Simulate the growth of vine.
 
 Just for fun.

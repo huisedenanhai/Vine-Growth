@@ -24,15 +24,15 @@
 
 using UnityEngine;
 
-[RequireComponent(typeof(VineGrouth))]
-public class StopGrouthAtHeight : MonoBehaviour
+[RequireComponent(typeof(VineGrowth))]
+public class StopGrowthAtHeight : MonoBehaviour
 {
     public float height;
-    private VineGrouth _vine;
+    private VineGrowth _vine;
 
     private void Awake()
     {
-        _vine = GetComponent<VineGrouth>();
+        _vine = GetComponent<VineGrowth>();
     }
 
     private void Update()

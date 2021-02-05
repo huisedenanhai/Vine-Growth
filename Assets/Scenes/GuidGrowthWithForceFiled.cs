@@ -24,15 +24,15 @@
 
 using UnityEngine;
 
-[RequireComponent(typeof(VineGrouth))]
-public class GuidGrouthWithForceFiled : MonoBehaviour
+[RequireComponent(typeof(VineGrowth))]
+public class GuidGrowthWithForceFiled : MonoBehaviour
 {
-    private VineGrouth _vine;
+    private VineGrowth _vine;
     public ForceFiled forceFiled;
 
     private void Awake()
     {
-        _vine = GetComponent<VineGrouth>();
+        _vine = GetComponent<VineGrowth>();
     }
 
     private void Update()

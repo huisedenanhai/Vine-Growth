@@ -49,7 +49,7 @@ public class VineFeature
 }
 
 [RequireComponent(typeof(MeshFilter))]
-public class VineGrouth : MonoBehaviour
+public class VineGrowth : MonoBehaviour
 {
     private MeshFilter _meshFilter;
     private Mesh _mesh;

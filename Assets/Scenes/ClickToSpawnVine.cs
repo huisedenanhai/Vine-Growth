@@ -27,9 +27,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
-public class ClickToSwapnVine : MonoBehaviour
+public class ClickToSpawnVine : MonoBehaviour
 {
-    public VineGrouth vine;
+    public VineGrowth vine;
     public ForceFiled forceField;
     public Vector3 velocityScaleMin = Vector3.one * 0.5f;
     public Vector3 velocityScaleMax = Vector3.one * 1.2f;
@@ -69,8 +69,8 @@ public class ClickToSwapnVine : MonoBehaviour
             {
                 obj.timeScale = SampleRandomTimeScale();
                 obj.velocityScale = SampleRandomVectorScale();
-                obj.GetComponent<GuidGrouthWithForceFiled>().forceFiled = forceField;
-                obj.GetComponent<StopGrouthAtHeight>().height = SampleRandomHeight();
+                obj.GetComponent<GuidGrowthWithForceFiled>().forceFiled = forceField;
+                obj.GetComponent<StopGrowthAtHeight>().height = SampleRandomHeight();
             }
         }
     }
